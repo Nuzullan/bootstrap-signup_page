@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Signup Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+        <style>
+            body{
+                background-color: rgb(158, 91, 212);
+                background-image: none;
+            }
+            .form-container{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: #fff;
+                position: absolute;
+                margin-top: 200px;
+                margin-bottom: 200px;
+                margin-left: 200px;
+                border-radius: 5px;
+                padding: 50px 35px;
+                width: 600px;
+                align-items: center;
+            }
+            button{
+                width: 530px;
+                align-content: center;
+                background-color: rgb(119, 77, 158);
+
+            }
+            /* margin-top: 50px;
+    width: 90%;
+    background-color: rgb(123, 173, 216);
+    color: #0d0a24;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+} */
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="form-bg">
+        <div class="container">
+        <div class="form-container">
+            <h1> Registration </h1>
+            <div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-4">
+                            <label for="fullname" class="form-label">Full Name</label>
+                            <input type="text" placeholder="Enter your name" id="fullname" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-4">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" placeholder="Enter your username" id="username" class="form-control" required>
+                        </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" placeholder="Enter your email" id="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-4">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" placeholder="Enter your number" id="phone" class="form-control" required>
+                        </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" placeholder="Enter your password" id="password" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Confirm Password</label>
+                            <input type="password" placeholder="Confirm your password" id="password" class="form-control" required>
+                        </div>
+                        </div>
+                </div>
+                <button type="button" class="btn btn-primary">Register</button>
+                </div>
+                </div>
+
+        </div>
+    </body>
+</html>
